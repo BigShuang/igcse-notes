@@ -1,0 +1,39 @@
+## Past Papers
+### s23_qp_11
+
+Secondary storage devices are used to store data in a computer.
+
+#### a
+Circle three components that are secondary storage devices.
+- central processing unit (CPU)
+- compact disk (CD)
+- hard disk drive (HDD) 
+- random access memory (RAM) 
+- read only memory (ROM)
+- register
+- sensor 
+- solid‑state drive (SSD)
+
+#### b
+Tick one box to show which statement about secondary storage is correct.
+A. It is directly accessed by the CPU.
+B. It is magnetic storage only.
+C. It is used to permanently store software and data files.
+D. It is volatile.
+
+
+### s23_qp_12
+Output devices are used to output data from a computer
+
+Circle three devices that are output devices.
+
+- actuator 
+- digital versatile disk (DVD) 
+- keyboard
+- microphone 
+- mouse 
+- printer 
+- scanner
+- sensor 
+- solid‑state drive (SSD) 
+- speaker
