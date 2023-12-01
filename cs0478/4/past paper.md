@@ -1,5 +1,5 @@
 ## Past Papers
-### s23_qp_11
+### s23 11
 > total mark: 4
 
 Complete the statements about different types of software.
@@ -13,3 +13,29 @@ Some of the terms in the list will not be used. You should only use a term once.
 \___ software is run on the operating system.
 
 The \___ system is run on the firmware, which is run on the \___
+
+### s23 12_5
+A programmer writes a computer program using a high‑level language.
+#### a
+> mark: 1
+
+Tick one box to show which statement is correct about writing computer programs in a high‑level language.
+
+A. Mnemonics are used to create instructions.
+B. The computer program is harder to debug than a low‑level language program.
+C. The computer program is machine independent.
+D. The hardware of the computer can be directly manipulated.
+
+#### b
+> mark: 3, 2
+
+The programmer uses a compiler to translate the computer program.
+1. Describe how the compiler translates the computer program.
+2. Describe how the compiler reports errors.
+
+#### c
+> mark: 3
+
+The programmer uses an integrated development environment (IDE) to create the computer program.
+One function of the IDE is that it has the built‑in compiler.
+Give three other common functions of an IDE.

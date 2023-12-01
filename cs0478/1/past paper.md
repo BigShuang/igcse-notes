@@ -52,3 +52,54 @@ $$
 
 Two binary numbers are added by a computer and an overflow error occurs.
 Explain why the overflow error occurred.
+
+### s23 12_2
+
+Binary numbers can be converted to hexadecimal.
+#### a
+> mark: 4
+
+Convert the two binary numbers to hexadecimal.
+- 10010011
+- 00001101
+
+#### b
+> mark: 2
+
+A value is stored as a binary number in a register
+**01111010**
+A logical right shift of three places is performed on the binary number.
+1. Complete the binary register to show its contents after this logical right shift.
+2. State one effect this logical shift has on the binary number.
+
+#### c
+> mark: 2
+
+Give two reasons why a programmer may use hexadecimal to represent binary numbers
+1. \___
+2. \___
+
+#### d
+> mark: 2
+
+Denary numbers can also be converted to hexadecimal.
+**301**
+
+### s23 12_3
+> mark: 10
+
+When keys are pressed on a keyboard, the text is converted to binary to be processed by the computer.
+
+#### a
+Describe how the text is converted to binary to be processed by the computer.
+> mark: 3
+
+#### b
+> mark: 7
+
+Text that is input into a computer can be stored in a text file.
+A text file can be compressed using lossless compression.
+
+1. State what effect this has on the file size.
+2. Describe how lossless compression compresses the text file.
+3. Give two reasons why the text file may have been compressed.

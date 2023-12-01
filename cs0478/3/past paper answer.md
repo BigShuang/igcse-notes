@@ -9,5 +9,8 @@ C
 
 ### s23_qp_12
 - Actuator 
+ 执行器
 - Printer 
+ 打印机
 - Speaker
+ 扬声器

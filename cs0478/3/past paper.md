@@ -1,5 +1,5 @@
 ## Past Papers
-### s23_qp_11
+### s23 11
 
 Secondary storage devices are used to store data in a computer.
 
@@ -22,9 +22,10 @@ C. It is used to permanently store software and data files.
 D. It is volatile.
 
 
-### s23_qp_12
-Output devices are used to output data from a computer
+### s23 12
+> mark: 3
 
+Output devices are used to output data from a computer
 Circle three devices that are output devices.
 
 - actuator 
