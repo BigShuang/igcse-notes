@@ -1,5 +1,5 @@
-## Past Papers
-### s23 11
+## 2023 March
+### 11-1
 #### a
 B
 #### b
@@ -28,7 +28,7 @@ two from:
 - The result of the calculation would require more than 8 bits to be represented.
 A register has a predetermined number of bits and there are toomanw bits tor it
 
-### s23 12_2
+### 12-2
 #### a
 - 93
 - 0D
@@ -47,7 +47,7 @@ Any two from:
 #### d
 12D
 
-### s23 12_3
+### 12-3
 #### a
 A character set is used, such as Unicode/ASCII.
 Each character has a unique binary value.

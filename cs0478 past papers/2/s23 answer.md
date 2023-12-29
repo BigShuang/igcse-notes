@@ -1,5 +1,5 @@
-## Past Paper Answers
-### s23 11
+## 2023 March Answer
+### 11-2
 #### a
 - The sample rate is the number of samples taken in a second/per time unit 
 
@@ -26,7 +26,7 @@ Any five from:
 - Once the last packet has arrived, packets are reordered
 - If a packet is missing/corrupted, it is requested again
 
-### s23 12_4
+### 12-4
 #### a
 1. Two from:
 - Data is sent one bit at a time
