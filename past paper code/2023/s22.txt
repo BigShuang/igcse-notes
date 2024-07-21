@@ -1,0 +1,86 @@
+// function to be called
+FUNCTION checkMatch(AccID: INTEGER) RETURNS BOOLEAN
+    DECLARE Name, Password: STRING // local variables
+    IF AccID < 0 OR AccID >= Size 
+      THEN
+        OUTPUT "Invalid Account Number"
+        RETURN FALSE
+    ENDIF
+
+    OUTPUT "Enter your name:"
+    INPUT Name 
+    OUTPUT "Enter your password:"
+    INPUT Password 
+    IF Name <> Account[AccID, 1] OR Password <> Account[AccID, 2]
+      THEN
+        OUTPUT "Invalid name or password"
+        RETURN FALSE
+    ENDIF
+
+    RETURN TRUE
+ENDFUNCTION
+
+
+PROCEDURE Balance(AccID: INTEGER)
+    OUTPUT "Your balance is ", AccDetails[AccID, 1]
+ENDPROCEDURE
+
+PROCEDURE Withdraw(AccID: INTEGER)
+    DECLARE Money: REAL
+    OUTPUT "input the withdraw money you want:"
+    INPUT Money
+
+    // withdraw money should be less than or equal to withdraw limit
+    IF Money <= AccDetails[AccID, 2] 
+      THEN
+        // check withdraw money <= balance + overdraft limit
+        IF Money <= AccDetails[AccID, 1] + AccDetails[AccID, 2]
+          THEN
+            AccDetails[AccID, 1] ← AccDetails[AccID, 1] - Money 
+            OUPUT "withdraw:",money
+          ELSE 
+            OUTPUT "out of the sum of balance and overdraft"
+        ENDIF
+      ELSE
+        OUTPUT "out of overdraft"
+    ENDIF 
+ENDPROCEDURE
+
+PROCEDURE Deposit(AccID: INTEGER)
+    DECLARE Money: REAL
+    OUTPUT "input the deposit:"
+    INPUT Money
+    AccDetails[AccID, 1] ← AccDetails[AccID, 1] + Money 
+    OUTPUT "Deposit money:", amount
+ENDPROCEDURE
+
+// Declaration s of global variables for information
+DECLARE AccountID, Choice: INTEGER
+DECLARE Valid, Exit: BOOLEAN
+
+OUTPUT "Enter Account ID:"
+INPUT AccountID
+Valid = checkMatch(AccountID)
+
+IF Valid 
+  THEN 
+    Exit ← FALSE 
+    WHILE NOT Exit DO
+        OUTPUT "Menu"
+        OUTPUT "1. display balance"
+        OUTPUT "2. withdraw money"
+        OUTPUT "3. deposit money"
+        OUTPUT "4. exit"
+        OUTPUT "Choose menu by index(1,2,3,4):"
+        INPUT Choice
+        CASE OF Choice
+          1: Balance(AccountID)
+          2: Withdraw(AccountID)
+          3: Deposit(AccountID)
+          4: Exit ← TRUE 
+          OTHERWISE OUTPUT "Invalid choice"
+        ENDCASE
+    ENDWHILE
+  ELSE
+    OUTPUT "Invalid account number"
+ENDIF

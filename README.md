@@ -6,7 +6,7 @@ cie igcse computer science 0478 course notes &amp; tutorial
 IGCSE笔记&amp;教程
 
 > 本项目作者介绍：大爽老师，编程一对一辅导老师。
-> 擅长国际编程教育（海外留学，国际高中IGCSE/Ap/... )
+> 擅长国际编程教育（海外留学，国际高中IGCSE/Ap/... ）
 > b站号: 大爽老师在b站。小红书号：大爽老师教编程。
 > wechat: bigshuang2020
 
